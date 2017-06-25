@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>Affectiva Demo</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="https://bryantravissmith.github.io/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="https://bryantravissmith.github.io/theme/css/clean-blog.min.css" rel="stylesheet">
+
+
+        <!-- Code highlight color scheme -->
+            <link href="https://bryantravissmith.github.io/theme/css/code_blocks/github.css" rel="stylesheet">
+
+        <link href="https://bryantravissmith.github.io/theme/css/jupyter.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- jQuery -->
+        <script src="https://bryantravissmith.github.io/theme/js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://bryantravissmith.github.io/theme/js/bootstrap.min.js"></script>
+
+            <!-- Custom Theme JavaScript -->
+            <script src="https://bryantravissmith.github.io/theme/js/clean-blog.min.js"></script>
+
+
+
+
+        <meta name="description" content="Simple Demo of Affectiva Emotioan Detection SDK">
+
+        <meta name="author" content="Bryan Travis Smith, Ph.D">
+
+        <meta name="tags" content="Affectiva">
+        <meta name="tags" content="emotions">
+        <meta name="tags" content="udacity">
+        <meta name="tags" content="nanadegress">
+        <meta name="tags" content="artifical intelligence">
+        <meta name="tags" content="javascript">
+
+	                <meta property="og:locale" content="">
+		<meta property="og:site_name" content="Bryan Travis Smith, Ph.D">
+
+	<meta property="og:type" content="article">
+            <meta property="article:author" content="https://bryantravissmith.github.io/author/bryan-travis-smith-phd.html">
+	<meta property="og:url" content="https://bryantravissmith.github.io/udacity-aind/affectiva-demo/">
+	<meta property="og:title" content="Affectiva Demo">
+	<meta property="article:published_time" content="2017-06-23 00:00:00-07:00">
+            <meta property="og:description" content="Simple Demo of Affectiva Emotioan Detection SDK">
+
+            <meta property="og:image" content="https://bryantravissmith.github.io/theme/images/post-bg.jpg">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://bryantravissmith.github.io/">Bryan Travis Smith, Ph.D</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="https://bryantravissmith.github.io/about/">About</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-color: DARKTURQUOISE">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                <!-- Remove - Make full width
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                !-->
+                    <div class="post-heading">
+                        <h1>Affectiva Demo</h1>
+                        <span class="meta">Posted by
+                                <a href="https://bryantravissmith.github.io/author/bryan-travis-smith-phd.html">Bryan Travis Smith, Ph.D</a>
+                             on Fri 23 June 2017
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="">
+            <!-- Remove - Make full width
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            !-->
+    <!-- Post Content -->
+    <article>
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Affectiva-Demo">Affectiva Demo<a class="anchor-link" href="#Affectiva-Demo">&#182;</a></h3><p>The Udacity Artificial Intelligence NanoDegree has three specializations:</p>
+<ol>
+<li>NLP (Using IBM Watson)</li>
+<li>Speech Recognition (Using Amazon Alexa)</li>
+<li>Image Recognition (Using Affectivia)</li>
+</ol>
+<p>I have been playing with all the introductory tutorials for the 3 specializations.  To complete the nano-degree, you are only allowed to submit on the three projects.   This has not been reviewed, because I am leaning to the Amazon Alexa project.</p>
+<p>You can look at <a href="https://github.com/bryantravissmith/AIND-CV-Mimic">https://github.com/bryantravissmith/AIND-CV-Mimic</a> for the code.</p>
+<p>This is a little game that will initalize your webcam, then start to use the Affectiva API to identify the emotions on your face.   The game is for you to mimic the emojis that cycle through the right side of the screen.</p>
+<p>Enjoy!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span><span class="p">,</span> <span class="n">display_html</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;AffectivaDemo/index.html&quot;</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">index_html</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">index_html</span> <span class="o">=</span> <span class="n">index_html</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;html&gt;&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>\
+        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;body&gt;&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>\
+        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;/html&gt;&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>\
+        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;/body&gt;&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>\
+        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;mimic.&quot;</span><span class="p">,</span> <span class="s2">&quot;https://bryantravissmith.github.io/AffectivaDemo/mimic.&quot;</span><span class="p">)</span>
+        
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">HTML</span><span class="p">(</span><span class="n">index_html</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[8]:</div>
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+
+<head>
+  <title>Mimic Me!</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://download.affectiva.com/js/3.2/affdex.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="https://bryantravissmith.github.io/AffectivaDemo/mimic.css" />
+</head>
+
+  <div class="container">
+    <div class="row top">
+      <div class="col-md-8 left">
+        <div id="camera"></div>
+      </div>
+      <div class="col-md-4 right">
+        <h4>Mimic Me!</h4>
+        <div id="game">
+          <div id="target">?</div>
+          <div id="score">Score: 0 / 0</div>
+        </div>
+        <div id="controls">
+          <button id="start" onclick="onStart()">Start</button>
+          <button id="stop" onclick="onStop()">Stop</button>
+          <button id="reset" onclick="onReset()">Reset</button>
+        </div>
+        <div id="instructions">
+          <h5>INSTRUCTIONS</h5>
+          <p>
+            <ul>
+              <li>Press <strong>Start</strong> to initialize the detector.</li>
+              <li>Your current emoji will be shown next to your head.</li>
+              <li>Mimic each emoji being displayed to score a point!</li>
+              <li>Press <strong>Stop</strong> to end the detector.</li>
+              <li>Watch the tracking results and log messages for more information.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row bottom">
+      <div class="col-md-8 left" id="instructions">
+        <div id="results-container">
+          <h5>EMOTION TRACKING RESULTS</h5>
+          <div id="results"></div>
+        </div>
+      </div>
+      <div class="col-md-4 right">
+        <div id="logs-container">
+          <h5>DETECTOR LOG MSGS</h5>
+          <p id="logs"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://bryantravissmith.github.io/AffectivaDemo/mimic.js"></script>
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+ 
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        processEnvironments: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+    </article>
+
+        <div class="tags">
+            <p>tags: <a href="https://bryantravissmith.github.io/tag/affectiva.html">Affectiva</a>, <a href="https://bryantravissmith.github.io/tag/emotions.html">emotions</a>, <a href="https://bryantravissmith.github.io/tag/udacity.html">udacity</a>, <a href="https://bryantravissmith.github.io/tag/nanadegress.html">nanadegress</a>, <a href="https://bryantravissmith.github.io/tag/artifical-intelligence.html">artifical intelligence</a>, <a href="https://bryantravissmith.github.io/tag/javascript.html">javascript</a></p>
+        </div>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="">
+                <!-- Remove - Make full width
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                !-->
+                    <ul class="list-inline text-center">
+                            <li>
+                                <a href="http://linkedin.com/in/bryantravissmith">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-another social link fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+<p class="copyright text-muted">
+    Blog powered by <a href="http://getpelican.com">Pelican</a>,
+    which takes great advantage of <a href="http://python.org">Python</a>. <br />        &copy;  Bryan Travis Smith, Ph.D
+</p>                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<style>
+ body {
+     width: 100%;
+ }
+ </style>
+</html>
